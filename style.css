@@ -50,9 +50,10 @@ a:hover {
 /* Mis en forme de la baseline */
 #baseline{
   background-color: #41A3C0;
+  background-image: linear-gradient(to bottom, orange, white);
   text-align: center;
   background-size: cover;
-  padding: 150px;
+  padding: 100px;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
@@ -78,6 +79,11 @@ a:hover {
   width: 400px;
   background: #0001;
   border-radius: 10px;
+}
+
+
+.feature:hover {
+  background: #ffbc56;
 }
 
 #apropos{
